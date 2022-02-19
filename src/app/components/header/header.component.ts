@@ -13,5 +13,8 @@ title:string = 'MiLista'
 
   ngOnInit(): void {
   }
+  toggleAddTask(){
+    console.log("toggleAddTask");
+  }
 
 }
