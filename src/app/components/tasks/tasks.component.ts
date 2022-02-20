@@ -10,7 +10,7 @@ import { TASKS } from 'src/app/mock-tasks';
 })
 export class TasksComponent implements OnInit {
   tasks: Task[] = TASKS;
-
+ 
 
   constructor() { }
 
