@@ -9,8 +9,8 @@ import { Subscription } from 'rxjs';
 })
 export class HeaderComponent implements OnInit {
 
-title:string = 'MiLista'
-showAddTask: boolean = true;
+title:string = 'MyTaskList'
+showAddTask: boolean = false;
 subscription?: Subscription;
 
   constructor(    private uiService:UiService
